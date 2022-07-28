@@ -14,4 +14,16 @@
 
 ## 2.3. 그림으로 Git 뜯어보기
 ### 2.3.1. 커밋은 Delta(차이점)가 아니라 Snapshot(스냅사진)
+- SubVersion: 바뀐 부분만 저장한다.
+- Git: 커밋에 바뀐 것만 저장하는 것이 아니라 전체 코드를 저장한다.
+
 ### 2.3.2. Git으로 관리하는 파일의 4가지 상태
+  - 추적안됨(untracked)
+  - 수정없음(tracked)
+  - 수정함(tracked)
+  - 스테이지됨(tracked)
+  
+1. 새로운 파일 생성(untracked)
+2. 스테이지에 올리기(add→staged)
+3. 스테이지 파일 전체를 버전으로 만들기(commit→unmodified)
+4. 원격저장소 업로드(push)
